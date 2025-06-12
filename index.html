@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jane Doe - Portfolio</title>
+    <title>Honizuka - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
   </head>
@@ -10,10 +10,10 @@
     <nav>
       <div id="home">
         <div class="profile_name">
-          Jane Doe
+          Honizuka
           <div class="contact_info">
             <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jdoe@jeemail.com
+            Honizuka@jeemail.com
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
@@ -25,6 +25,9 @@
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
           <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
 
         </div>
       </div>    
@@ -33,18 +36,19 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+        <img src="/html_finalprojimages/honizuka.png" class="profile_image"/>
       </div>
 
       <div>
           <h1>
-            Hi, I'm Jane Doe! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+            Hi, I'm Honizuka! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
           </h1>
           <p>
-            I am a full stack developer with 2 years of experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on IBM Cloud. 
-            I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
-          </p>
+            Ergebnisorientierter Software Engineer mit
+            adaptivem Mindset und Lernbereitschaft. Fähig in der
+            Entwicklung vielseitiger Lösungen und bereit, Mehrwert
+            für Entwicklungsteams zu schaffen
+                    </p>
       </div>
     </section>
               
@@ -67,7 +71,26 @@
         </div>  
 
         <!-- Add more skills here -->
-
+        <div class="skill">
+          <img src="html_finalprojimages/python-programming-language.webp"/>
+          <h6>Python</h6>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="html_finalprojimages/13429_ILL_DevOpsLoop.webp"/>
+          <h6>Devops</h6>
+          <p>1 years experience</p>
+        </div> 
+        <div class="skill">
+          <img src="html_finalprojimages/node.png"/>
+          <h6>Nodejs</h6>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>React</h6>
+          <p>1 years experience</p>
+        </div>   
 
       </div>
     </section>
@@ -81,23 +104,23 @@
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Chatbot</h3>
+            <h3>Tickting System</h3>
             <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              <li>Created an Inhouse fullstack tickiting system using MERN Stack</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>Warehouse managment systems</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Developed and deployed an ERP integrated software that handels all in and out items into a certain warehouse, the data was sent from PDA readers using an API and proccessed with the system and saved into an Oracle Database</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Reservations application</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>Created a travel and stay application, where you can reserve your ticket and place of stay at the same place</li>
             </ul>
           </div>
     </div>
@@ -111,24 +134,17 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+          Honizuka is a brilliant engineer with a rare blend of creativity and precision. He consistently delivers high-quality code and is always eager to support and mentor junior team members
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+          I had the pleasure of working with Honizuka on a fintech platform. His problem-solving skills and attention to detail made a real impact. He’s a true team player
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
+          Honizuka's technical insight and calm under pressure are exceptional. He’s always ready to tackle complex issues and communicates effectively across all levels. A fantastic asset to any tech team. 
           <span>&#8221;</span>
         </div>
       </div>
@@ -149,14 +165,17 @@
     </section>
 
     <div class="iconbutton">
-      <a href="#home">
+      <a href="#home" >
         <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
       </a>
     </div>
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Thank you for recommending me!!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
